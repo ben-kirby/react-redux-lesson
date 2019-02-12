@@ -6,19 +6,19 @@ var masterTicketList = [
     symbol: '\u26FA',
     names:  'Thato and Haley',
     location: '3A',
-    issue: 'Firebase won\'t save record. Halp.'
+    issue: 'Home page not working.'
   },
   {
     symbol:  '⛽',
     names: 'Sleater and Kinney',
     location: '4B',
-    issue: 'Fox image not displaying on page, can only see duck?'
+    issue: 'Out of gas.'
   },
   {
     symbol:  '⛸',
     names: 'Imani & Jacob',
     location: '9F',
-    issue: 'Donkey picture not displaying on hover in Zoology app. :('
+    issue: 'Can\'t skate by.'
   },
   {
     symbol:  '🙀',
@@ -27,11 +27,12 @@ var masterTicketList = [
     issue: 'React not working as expected issue.'
   },
   {
-    symbol:  '\uD83D\uDE40',
+    symbol:  '\u267A',
     names: 'Test 3 and Test 4',
     location: '9F',
-    issue: 'Angular is messy.'
-  }
+    issue: 'Stuck inside infinite loop.'
+  },
+
 ];
 
 function TicketList(){

@@ -18,7 +18,6 @@ function Ticket(props){
       <h1>{props.symbol}</h1>
       <h3>{props.location} - {props.names}</h3>
       <p><em>{props.issue}</em></p>
-      <p>test x = \u0077</p>
     <hr/>
     </div>
   );
