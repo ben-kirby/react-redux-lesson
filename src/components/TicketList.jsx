@@ -16,6 +16,11 @@ var masterTicketList = [
     names: 'Imani & Jacob',
     location: '9F',
     issue: 'Donkey picture not displaying on hover in Zoology app. :('
+  },
+  {
+    names: 'Test 1 and Test 2',
+    location: '9F',
+    issue: 'React not working as expected issue.'
   }
 ];
 
@@ -27,7 +32,7 @@ function TicketList(){
         <Ticket names={ticket.names}
           location={ticket.location}
           issue={ticket.issue}
-          key={ticket.index}/>
+          key={index}/>
       )}
     </div>
   );
