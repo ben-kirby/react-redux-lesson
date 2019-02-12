@@ -3,7 +3,7 @@ import Ticket from './Ticket';
 
 var masterTicketList = [
   {
-    symbol: '⛺',
+    symbol: '\u26FA',
     names:  'Thato and Haley',
     location: '3A',
     issue: 'Firebase won\'t save record. Halp.'
@@ -21,10 +21,16 @@ var masterTicketList = [
     issue: 'Donkey picture not displaying on hover in Zoology app. :('
   },
   {
-    symbol:  '⛳',
+    symbol:  '🙀',
     names: 'Test 1 and Test 2',
     location: '9F',
     issue: 'React not working as expected issue.'
+  },
+  {
+    symbol:  '\uD83D\uDE40',
+    names: 'Test 3 and Test 4',
+    location: '9F',
+    issue: 'Angular is messy.'
   }
 ];
 

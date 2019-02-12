@@ -5,12 +5,12 @@ function Ticket(props){
   return (
     <div>
         <style jsx>{`
+          h1 {
+            font-size: 40pt;
+          }
           h3 {
             background-color: lightcyan;
             }
-          p {
-            background-color: lightyellow;
-          }
           div {
             background-color: rgba(0, 0, 0, 0.25) !important;
           }
