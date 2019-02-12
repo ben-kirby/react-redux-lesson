@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header(){
   return (
-    <h1>Help Queue</h1>
+    <h1>&#x265A; &#x265A; &#x265A; &#x265A; &#x265A; Help Queue &#x265A; &#x265A; &#x265A; &#x265A; &#x265A;</h1>
   );
 }
 
