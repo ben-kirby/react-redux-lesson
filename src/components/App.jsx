@@ -7,10 +7,14 @@ import { Switch, Route } from 'react-router-dom';
 import MySampleImage from '../assets/images/testimage.png';
 
 function App(){
+  const mainImageStyle = {
+    width: "25%",
+    height: "auto"
+  }
   return (
     <div>
       <div>
-        <img src={MySampleImage}/>
+        <img src={MySampleImage} style={mainImageStyle}/>
       </div>
       <Header/>
       <Switch>
