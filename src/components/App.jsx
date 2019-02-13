@@ -4,10 +4,14 @@ import TicketList from './TicketList';
 import NewTicketForm from './NewTicketForm';
 import Error404 from './Error404';
 import { Switch, Route } from 'react-router-dom';
+import MySampleImage from '../assets/images/testimage.png';
 
 function App(){
   return (
     <div>
+      <div>
+        <img src={MySampleImage}/>
+      </div>
       <Header/>
       <Switch>
         <Route exact path='/' component={TicketList} />

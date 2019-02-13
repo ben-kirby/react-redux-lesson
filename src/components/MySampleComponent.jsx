@@ -1,12 +1,12 @@
 import React from 'react';
-import MySampleImageComponent from '../assets/images/cutestpuppy.jpg';
+import MySampleImage from '../assets/images/testimage.jpg';
 
-function MySampleComponent(){
+function MySampleImage(){
   return (
     <div>
-      <img src={reallyAdorablePuppy}/>
+      <img src={MySampleImage}/>
     </div>
   );
 }
 
-export default MySampleComponent;
+export default MySampleImage;
