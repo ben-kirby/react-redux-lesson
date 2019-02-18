@@ -1,12 +1,10 @@
 import React from 'react';
 import Header from './Header';
 import TicketList from './TicketList';
-import NewTicketForm from './NewTicketForm';
+import NewTicketControl from './NewTicketControl';
 import Error404 from './Error404';
 import { Switch, Route } from 'react-router-dom';
-import MySampleImage from '../assets/images/testimage.png';
-import MyAnotherTestImage from '../assets/images/testwide.png';
-import NewTicketControl from './NewTicketControl';
+import { v4 } from 'uuid';
 
 class App extends React.Component {
 
@@ -17,6 +15,7 @@ class App extends React.Component {
     };
     this.handleAddingNewTicketToList = this.handleAddingNewTicketToList.bind(this);
   }
+
   handleAddingNewTicketToList(newTicket){
     var newMasterTicketList = this.state.masterTicketList.slice();
     newMasterTicketList.push(newTicket);
@@ -26,12 +25,12 @@ class App extends React.Component {
   render(){
     return (
       <div>
-      <Header/>
-      <Switch>
-      <Route exact path='/' render={()=><TicketList ticketList={this.state.masterTicketList} />} />
-      <Route path='/newticket' render={()=><NewTicketControl onNewTicketCreation={this.handleAddingNewTicketToList} />} />
-      <Route component={Error404} />
-      </Switch>
+        <Header/>
+        <Switch>
+          <Route exact path='/' render={()=><TicketList ticketList={this.state.masterTicketList} />} />
+          <Route path='/newticket' render={()=><NewTicketControl onNewTicketCreation={this.handleAddingNewTicketToList} />} />
+          <Route component={Error404} />
+        </Switch>
       </div>
     );
   }
