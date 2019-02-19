@@ -30,8 +30,8 @@
         "react/jsx-no-undef": 2,
         "react/no-multi-comp": 2,
         "react/jsx-indent-props": [
-            "error",
-            2
+            "off",
+            0
           ],
         "react/jsx-pascal-case": 2,
         "react/prop-types": 2,
@@ -52,7 +52,7 @@
             "single"
         ],
         "semi": [
-            "error",
+            "off",
             "always"
         ]
     }
