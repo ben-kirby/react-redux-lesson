@@ -17,8 +17,12 @@
      "parser": "babel-eslint",
 
     "rules": {
+      "react/require-render-return": 2,
+      "react/no-unused-state": 2,
+      "react/prefer-stateless-function": 2,
       "no-console":"warn",
       "no-unused-vars": "off",
+       "react/jsx-handler-names": 2,
         "react/jsx-key": 2,
         "react/jsx-uses-vars": 2,
         "react/jsx-uses-react": 2,
